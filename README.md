@@ -7,14 +7,14 @@ Desenvolvido em **Python**, o projeto combina **Flet** para a interface gráfica
 
 ## 📂 Estrutura do Projeto
 
-You Tube Downloader/<br>
-│<br>
-├── layout.py # Tela principal do aplicativo (interface)<br>
-│<br>
-├── function/<br>
-│ └── method.py # Funções principais de download e conversão<br><br>
-│
-└── downloads/ # Pasta onde os vídeos e áudios são salvos<br>
+📁 YouTube Downloader/<br>
+├── 📁 assets/<br>
+│	   └──📸 layout-exemple.png<br>
+├── 📁 downloads/<br>
+├── 📁 functions/<br>
+│     └──📄 method.py<br>
+├── 📄 layout.py<br> 
+└── README.md<br>
 
 
 ---
@@ -63,7 +63,7 @@ You Tube Downloader/<br>
 
 A interface foi desenvolvida com Flet, proporcionando uma aparência limpa e moderna:
 
-<p align="center"> <img src="https://github.com/seu-usuario/You-Tube-Downloader/assets/layout-example.png" width="280"> </p><br>
+<p align="center"> <img src="https://github.com/seu-usuario/YouTube Downloader/assets/layout-example.png" width="280"> </p><br>
 
 ## 📦 Futuras Implementações
 
