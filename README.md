@@ -63,7 +63,7 @@ Desenvolvido em **Python**, o projeto combina **Flet** para a interface gráfica
 
 A interface foi desenvolvida com Flet, proporcionando uma aparência limpa e moderna:
 
-<p align="center"> <img src="https://github.com/eu-marceloprodrigues/YouTube-Downloader/assets/layout-example.png" width="280"> </p><br>
+<p align="center"> <img src="assets/layout-example.png" width="280"> </p>
 
 ## 📦 Futuras Implementações
 
