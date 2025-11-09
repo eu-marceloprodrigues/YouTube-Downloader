@@ -67,9 +67,9 @@ A interface foi desenvolvida com Flet, proporcionando uma aparência limpa e mod
 
 ## 📦 Futuras Implementações
 
- () Escolha de resolução de vídeo
+ ⚠️ Escolha de resolução de vídeo
 
- () Baixar arquivos em vídeo
+ ✅ Baixar arquivos em vídeo
 
 
 ## 🧑‍💻 Autor
