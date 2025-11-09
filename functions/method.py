@@ -4,7 +4,7 @@ import os
 import win32api
 import win32con
 
-def dowload_video(url):
+def download_music(url):
     try:
         yt = YouTube(url)
         print(f"🎶 Baixando áudio de: {yt.title}")
@@ -23,8 +23,35 @@ def dowload_video(url):
         # Remove o arquivo original (m4a/mp4)
         os.remove(arquivo_baixado)
 
-        win32api.MessageBox(0, f"B✅ Convertido e salvo como: {mp3_arquivo}"," Sucesso", win32con.MB_OK | win32con.MB_ICONINFORMATION)
+        win32api.MessageBox(0, f"✅ Convertido e salvo como: \n {mp3_arquivo}"," Sucesso", win32con.MB_OK | win32con.MB_ICONINFORMATION)
 
     except Exception as e:
-        win32api.MessageBox(0, f"❌ Erro ao baixar/converter: {e}","Falha", win32con.MB_OK | win32con.MB_ICONINFORMATION)
+        win32api.MessageBox(0, f"❌ Erro ao baixar/converter :\n {e}","Falha", win32con.MB_OK | win32con.MB_ICONWARNING)
 
+
+def download_video(url):
+    try:
+        yt = YouTube(url)
+        
+        # Baixa video
+        stream = yt.streams.get_highest_resolution()
+        arquivo_baixado = stream.download(output_path = 'downloads/video')
+
+        # Renomeia arquivo
+        base, _ = os.path.splitext(arquivo_baixado)
+        nome_video = base
+
+        win32api.MessageBox(
+            0,
+            f"✅ Vídeo '{nome_video}' baixado com sucesso!\nSalvo em: {base}",
+            "Sucesso",
+            win32con.MB_OK | win32con.MB_ICONINFORMATION,
+        )
+
+    except Exception as erro:
+        win32api.MessageBox(
+            0,
+            f"❌ Erro ao baixar/converter vídeo:\n{erro}",
+            "Falha",
+            win32con.MB_OK | win32con.MB_ICONWARNING,
+        )
