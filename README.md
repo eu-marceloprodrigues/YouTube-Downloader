@@ -49,7 +49,36 @@ You Tube Downloader/<br>
 ## 💻 Execução
 
 ### 1️⃣ Clonar o repositório:
-```bash
-    git clone https://github.com/seu-usuario/You-Tube-Downloader.git
-    cd You-Tube-Downloader
+    ```bash
+      git clone https://github.com/seu-usuario/You-Tube-Downloader.git
+      cd You-Tube-Downloader
+### 2️⃣ Instalar as dependências:
+      ``` bash
+         pip install flet pytubefix moviepy pywin32
+### 3️⃣ Executar o projeto:
+      ```bash
+      python layout.py
+
+## 🪄 Interface
+
+A interface foi desenvolvida com Flet, proporcionando uma aparência limpa e moderna:
+
+<p align="center"> <img src="https://github.com/seu-usuario/You-Tube-Downloader/assets/layout-example.png" width="280"> </p><br>
+
+## 📦 Futuras Implementações
+
+ () Escolha de resolução de vídeo
+
+ () Baixar arquivos em vídeo
+
+
+## 🧑‍💻 Autor
+
+Marcelo Pereira Rodrigues
+
+Em constante aprendizado, explorando o poder do Python e criando soluções simples e eficientes.
+
+## 📧 Contato 
+
+Segue meus links para contato: [✉️](https://www.linkedin.com/in/marcelo-pereira-rodrigues/)
 
