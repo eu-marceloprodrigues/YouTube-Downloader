@@ -63,7 +63,7 @@ Desenvolvido em **Python**, o projeto combina **Flet** para a interface gráfica
 
 A interface foi desenvolvida com Flet, proporcionando uma aparência limpa e moderna:
 
-<p align="center"> <img src="assets/layout-example.png" width="380"> </p>
+<p align="center"> <img src="assets/layout-example_atualizado.png" width="380"> </p>
 
 ## 📦 Futuras Implementações
 
